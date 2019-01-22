@@ -1,0 +1,22 @@
+﻿Short name,URL,Description,BED,PMID,Notes
+Mitranscriptome,http://mitranscriptome.org/,"MiTranscriptome is a catalog of human long poly-adenylated RNA transcripts derived from computational analysis of high-throughput RNA sequencing (RNA-Seq) data from over 6,500 samples spanning diverse cancer and tissue types. The complete catalog contains over 91,000 genes, the majority of which are previously uncharacterized long RNAs. Gene expression analysis of the transcripts revealed numerous cancer-specific and lineage-specific RNAs. We aim to enable the scientific community to investigate these intriguing transcripts in further detail.",Yes,,One big track. Can be used for epigenomic- and annotation enrichment analyses
+erpQTLs,http://www.sciencemag.org/content/suppl/2014/12/17/science.1260793.DC1/1260793_DatafileS1.xlsx,Expression/Ribosomal/Protein QTLs,Yes,,"Three lists of eQTLs, rQTLs and pQTLs. Can analyze and compare epigenomic context of each"
+GTEx,http://gtexportal.org/home/datasets2,Tissue-specific eQTLs,"Yes, need work",,"File `res_final_amean_com_genes_com_snps_all.txt.gz` contains columns of tissue-specific eQTLs, with local FDR values. Need to parse out. On Merlot. Can analyze for epigenomic context"
+GRASP,http://apps.nhlbi.nih.gov/Grasp/Overview.aspx,GRASP: Genome-Wide Repository of Associations Between SNPs and Phenotypes,"No, easily extractable",,Disease-SNP associations
+SCNAs,https://www.broadinstitute.org/tumorscape/pages/portalHome.jsf,Somatic copy number alterations in cancer,No,,"Cell type-specific SCNAs, gene-centric SCNA designation in each cancer. Hg18 coordinates, need to manually get them from tumorscape portal"
+MSEA,http://bioinfo.mc.vanderbilt.edu/MSEA/,"COSMIC mutations divided into subgroups, silent, non-silent etc.","Yes, need work",,Subcategories of cancer snps. Disadvantage - not divided into cancer types
+Dr.VIS2,http://www.bioinfo.org/drvis/index.php,Viral integration sites,"No, extractable",,"One Excel file, some sites lack precise location, only approx"
+HSRR,http://www.sciencedirect.com/science/article/pii/S0002929714002626,"Human-specific regulatory regions, not mapped to other organisms but have regulatory marks","Yes, easily extractable",,
+TTS,http://ttsmi.bii.a-star.edu.sg/index.php#,Triplex Target DNA sites,"No, easily extractable",,Can copy-paste genomic coordinates
+Tiger,http://bioinfo.wilmer.jhu.edu/tiger/download/download.html,Tissue-specific gene expression,"No, extractable for gene names",,
+CTCFBSDB,http://insulatordb.uthsc.edu/,CTCF binding sites,No,,Experimental and predicted sites
+Replicationdomain,http://www.replicationdomain.com/data.php,Early/Late replication regions,"No, easily extractable",,"Many data tracks, need full understanding what is what to define coordinates of early/late replication regions. Human and mouse data available"
+SynLethDB,http://histone.sce.ntu.edu.sg/SynLethDB/downloadPage.php,Pairs of genes causing lethality,No,,"Several data sources, pairs of lethality genes, cell line expression, drug target data"
+EssentialGenesDB,http://ogeedb.embl.de/,Essential genes and corresponding PubMed ID evidences,No,,
+EssentialGenes1,https://www.sciencemag.org/content/350/6264/1092/suppl/DC1,"""Gene essentiality and synthetic lethality in haploid human cells""",No,,Lists of essential genes in different cell lines identified by mutagenesis
+EssentialGenes2,http://www.sciencemag.org/content/350/6264/1096/suppl/DC1,"""Identification and characterization of essential genes in the human genome""",No,,Lists of essential genes identified by CRISPR screen
+TSGene,http://bioinfo.mc.vanderbilt.edu/TSGene/download.cgi,Tumor suppressor gene database,No,,"Lists of tumor-suppressor genes from TCGA. All, and cancer-specific"
+Kinome,http://bioinfo.mc.vanderbilt.edu/kinomenetworkX/download.html,Human kinase genes,No,,List of 538 human kinase genes
+Bloode-eQTL,http://genenetwork.nl/bloodeqtlbrowser/2012-12-21-CisAssociationsProbeLevelFDR0.5.zip,SNPs affecting gene expression in blood,"No, easily extractable",,"923,022 SNPs and genes. 15-column file, rsIDs, genes, genomic coords (hg19) easily extractable"
+Blood-sQTL,http://www.nature.com/ng/journal/v47/n4/extref/ng.3220-S2.xlsx,SNPs affecting splicing,"No, easily extractable",25685889,"2650 sQTLs, Table S2"
+Blood-QTL,http://genome.cshlp.org/content/suppl/2013/11/04/gr.155192.113.DC1/Supplemental_Data_1.xls,Different types of QTLs,"No, easily extractable",24092820,

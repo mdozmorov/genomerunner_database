@@ -1,0 +1,9 @@
+﻿Short name,URL,Description,BED,Notes
+isoKTSP,http://figshare.com/articles/TCGA_Iso_kTSP_analysis_dataset/1061917,"Integrative analysis of SNPs, RNA-seq, and isoforms between tumor and normal patients.","No, all data are easily processable",
+isoKTSP,http://nar.oxfordjournals.org/content/43/3/1345/suppl/DC1,"QC of paired RNA-seq samples, several cancer types. Provide QC data, patient-level somatic mutations, RNA-seq, isoform probability",Patient-specific level,
+lncrnadisease,http://210.73.221.6/lncrnadisease,lncRNAs associated with diseases,"No, extractable some. Most info should be taken from downloadable files",
+GRASP_QTL,http://iapps.nhlbi.nih.gov/GRASP/Updates.aspx,Expression/Metobolomics/Methylation/Glycosylation/Protein/microRNA QTLs,Extractable,
+geneimprint,http://www.geneimprint.com/site/home,Imprinted genes,"No, gene names available",
+DNArepair,http://sciencepark.mdanderson.org/labs/wood/dna_repair_genes.html,"DNA repair genes, different pathways","No, gene names available",
+ncRNAs,http://bioinformatics.oxfordjournals.org/content/31/14/2241.full," Jalali S, Kapoor S, Sivadas A, Bhartiya D, Scaria V: Computational approaches towards understanding human long noncoding RNA biology. Bioinformatics 2015.",No,"Paper, Table 1 lists ncRNA databases"
+Mutation Frequency,http://www.sciencemag.org/content/349/6255/1483/F2.large.jpg,"Cancer mutation frequency table, to use for data analysis",,
