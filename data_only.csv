@@ -37,3 +37,4 @@ Encyclopedia,https://noble.gs.washington.edu/proj/encyclopedia/,Chromatin states
 ReMap,http://tagc.univ-mrs.fr/remap/index.php?page=download,"ChIP-sec of TFBSs, BED files",Yes,"BED files, hg18, hg38"
 GTRD,http://gtrd.biouml.org/,"Uniformly processed TFBSs, meta-clusters and cell type-specific",Yes,"BED files, hg38, mm38"
 CCR,http://quinlanlab.org/blog/2018/12/20/constrained-coding-regions.html,Constrained coding regions,Yes,"BED files, hg19"
+Promoter-DHS,ftp://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/openchrom/jan2011/dhs_gene_connectivity/genomewideCorrs_above0.7_promoterPlusMinus500kb_withGeneNames_32celltypeCategories.bed8.gz,Consensus multi-tissue promoter-enhancer (DNAse hypersensitive regions) interactions,Yes,"BED files, hg19"
